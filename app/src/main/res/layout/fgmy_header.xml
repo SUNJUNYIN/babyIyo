@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:focusableInTouchMode="true"
+     android:focusable="true"
+    android:orientation="vertical" >
+    
+
+
+
+              
+       <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textColor="@color/bg_White"
+            android:layout_above="@+id/login"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:text="大仑丁" />
+            
+
+
+
+
+
+       
+
+
+    
+
+</LinearLayout>

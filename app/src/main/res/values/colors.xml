@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFAD5B</color>
+    <color name="colorPrimaryDark">#FFAD5B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_red">#ffff5b3b</color>
+    <color name="line_bg">#ffbababa</color>
+    <color name="main_bg_color">#ed4444</color>
+    <color name="layout_bg_color">#f8f8f8</color>
+    <color name="main_font_color">#9a9a9a</color>
+    <color name="header_color">#798279</color>
+    <color name="bg_item_normal_color">#ffffff</color>
+    <color name="bg_item_press_color">#e3e3e3</color>
+    <color name="bg_btn_normal_color">#ed4444</color>
+    <color name="bg_btn_press_color">#d81e06</color>
+    <color name="bg_btn_normal_color_hui">#d2d2d2</color>
+    <color name="bg_btn_press_color_hui">#c1c1c1</color>
+    <color name="bg_head_color">#F8F8F8</color>
+    <color name="province_line_border">#C7C7C7</color>
+    <color name="main_textcolormore">#63564B</color>
+    <!-- 白色 -->
+    <color name="bg_White">#FFFFFF</color>
+    <!-- 透明 -->
+    <color name="transparent">#00000000</color>
+    <!-- 纯白-->
+    <color name="white">#ffffff</color>
+    <!-- 黑色 -->
+    <color name="black">#ff000000</color>
+    <!-- 深绿 -->
+    <color name="m29c741">#29c741</color>
+    <!-- 灰色 -->
+    <color name="green">#146621</color>
+    <!-- 红色 -->
+    <color name="red">#ff0000</color>
+    <!--桔黄色 -->
+    <color name="bisque">#ffe4c4</color>
+    <!--鹿皮色 -->
+    <color name="moccasin">#ffe4b5</color>
+    <!--中紫罗兰色 -->
+    <color name="mediumvioletred">#c71585</color>
+    <color name="maingold">#cba162</color>
+    <color name="alphmaingold">#90cba162</color>
+    <!-- 黑色 -->
+    <color name="bg_Black">#ff000000</color>
+    <color name="bg_textmy">#c7c6cb</color>
+    <!-- 灰色 -->
+    <color name="mainred">#772322</color>
+    <color name="rb_select">#eeede8</color>
+    <color name="titlecolor">#969696</color>
+    <color name="bg_Gray">#CCCCCC</color>
+    <color name="header_Gray">#515151</color>
+    <color name="header_litteGray">#969696</color>
+    <color name="homepage_Gray">#F5F5F5</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="float_transparent">#66000000</color>
+    <color name="button_text_color">#FFFFFF</color>
+
+
+
+
+    <!-- 这里是文字的颜色和app的主题色 -->
+    <color name="login_text_color">#BDBDBD</color>
+    <color name="codeGary">#9e9e9e</color>
+    <color name="main_textcolor">#717272</color>
+    <color name="maincolor">#ff7474</color>
+    <color name="maincutalph">#50ff7474</color>
+    <!-- 横细线的颜色  -->
+    <color name="viewcolor">#d2d2d2</color>
+</resources>

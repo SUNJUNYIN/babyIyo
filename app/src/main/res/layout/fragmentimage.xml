@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:weightSum="5"
+       android:orientation="vertical">
+   <RelativeLayout
+
+       android:layout_gravity="center_horizontal"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:background="@drawable/bg_border_color_black"
+       >
+
+
+      <ImageView
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:src="@drawable/searchicon"
+          />
+      <TextView
+          android:layout_alignParentLeft="true"
+          android:layout_width="wrap_content"
+          android:textColor="@color/gray_btn_bg_color"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="杭州"
+          android:gravity="center_vertical"
+          android:drawablePadding="5dp"
+          android:drawableLeft="@drawable/searchicon"
+          android:layout_centerVertical="true"
+          android:textSize="15sp"
+          android:src="@drawable/searchicon"
+          />
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_gravity="center_horizontal"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:background="@drawable/bg_border_color_black"
+       >
+
+
+      <ImageView
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:src="@drawable/searchicon"
+          />
+      <TextView
+          android:layout_alignParentLeft="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="请选择规模"
+          android:textColor="@color/gray_btn_bg_color"
+          android:gravity="center_vertical"
+          android:drawablePadding="5dp"
+          android:drawableLeft="@drawable/searchicon"
+          android:layout_centerVertical="true"
+          android:textSize="15sp"
+          android:src="@drawable/searchicon"
+          />
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_gravity="center_horizontal"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:background="@drawable/bg_border_color_black"
+       >
+
+
+      <ImageView
+          android:layout_centerVertical="true"
+          android:layout_alignParentRight="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginRight="10dp"
+          android:src="@drawable/searchicon"
+          />
+      <TextView
+          android:layout_alignParentLeft="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="经营年限"
+          android:textColor="@color/gray_btn_bg_color"
+          android:gravity="center_vertical"
+          android:drawablePadding="5dp"
+          android:drawableLeft="@drawable/searchicon"
+          android:layout_centerVertical="true"
+          android:textSize="15sp"
+          android:src="@drawable/searchicon"
+          />
+   </RelativeLayout>
+   <RelativeLayout
+       android:layout_gravity="center_horizontal"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:background="@drawable/bg_border_maincolor"
+       >
+
+
+
+      <TextView
+          android:layout_centerInParent="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:text="开始搜索"
+          android:textColor="@color/white"
+          android:layout_centerVertical="true"
+          android:textSize="15sp"
+          android:src="@drawable/searchicon"
+          />
+   </RelativeLayout>
+   <LinearLayout
+       android:layout_gravity="center_horizontal"
+       android:layout_marginRight="40dp"
+       android:layout_marginLeft="40dp"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_weight="1"
+       android:weightSum="2"
+       >
+
+
+
+      <TextView
+          android:layout_weight="1"
+
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+         android:paddingLeft="30dp"
+          android:text="我的足迹"
+          android:layout_gravity="center"
+          android:textColor="@color/black"
+          android:drawableLeft="@drawable/searchicon"
+          android:gravity=""
+          android:layout_centerVertical="true"
+          android:textSize="12sp"
+          android:src="@drawable/searchicon"
+          />
+      <TextView
+          android:layout_weight="1"
+          android:layout_centerInParent="true"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:paddingLeft="20dp"
+          android:text="家政中心收藏"
+          android:layout_gravity="center"
+          android:textColor="@color/black"
+          android:drawableLeft="@drawable/searchicon"
+          android:gravity=""
+          android:layout_centerVertical="true"
+          android:textSize="12sp"
+          android:src="@drawable/searchicon"
+          />
+   </LinearLayout>
+
+
+
+   </LinearLayout>
+
+   <FrameLayout
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:layout_gravity="center_vertical"></FrameLayout>
+</FrameLayout>
+
+
+
+
+
+

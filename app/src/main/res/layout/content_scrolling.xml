@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/home_scrollview"
+    tools:context="com.steven.babyiyo.ScrollingActivity"
+   >
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="大仑丁，你好"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:id="@+id/hello_user" />
+        <TextView
+            android:layout_weight="1"
+            android:textStyle="normal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="IYO为您私人预定专业级的产后护理"
+            android:textSize="15sp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/bg_Gray"></View>
+    </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:textSize="14sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="17dp"
+            android:textColor="@color/black"
+            android:text="推荐中心"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+       <!-- <com.steven.babyiyo.component.CircleImageView
+           android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="17dp"
+            app:border_width="1dp"
+            app:border_color="@color/black"
+            android:id="@+id/circleImage1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/p1"
+            >
+        </com.steven.babyiyo.component.CircleImageView>-->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="喜月养生月子会所"
+            android:id="@+id/name1"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/circleImage1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1234"
+            android:gravity="center_vertical"
+            android:drawablePadding="6dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/xinpress"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/textView5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:src="@drawable/share"
+            android:layout_marginRight="10dp"
+            android:layout_toStartOf="@+id/textView5" />
+
+
+    </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/hotelone_ivone"
+                    android:layout_margin="5dp"
+                    android:layout_width="220dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/homeback"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/hotelone_ivtwo"
+                    android:layout_margin="5dp"
+                    android:layout_width="220dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/homeback"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:id="@+id/hotelone_ivthree"
+                    android:layout_margin="5dp"
+                    android:layout_width="220dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/homeback"
+                    android:layout_height="match_parent" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="杭州-滨江"
+                    android:textSize="12sp"
+                    android:layout_marginRight="17dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5个套餐"
+                    android:id="@+id/size1"
+                    android:layout_marginRight="15dp"
+                    android:textSize="12sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/textView1" />
+
+
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@color/bg_Gray"></View>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <!--<com.steven.babyiyo.component.CircleImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    app:border_width="1dp"
+                    app:border_color="@color/black"
+                    android:id="@+id/circleImage2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/p1"
+                    >
+                </com.steven.babyiyo.component.CircleImageView>-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="喜月养生月子会所"
+                    android:id="@+id/name2"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@+id/circleImage2" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1234"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/xinpress"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView6" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/share"
+                    android:layout_marginRight="10dp"
+                    android:layout_toStartOf="@+id/textView6" />
+
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="200dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/hoteltwo_ivone"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/hoteltwo_ivtwo"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/hoteltwo_ivthree"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="杭州-滨江"
+                    android:textSize="12sp"
+                    android:layout_marginRight="17dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5个套餐"
+                    android:id="@+id/size2"
+                    android:layout_marginRight="25dp"
+                    android:textSize="12sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/textView3" />
+
+
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@color/bg_Gray"></View>
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+               <!-- <com.steven.babyiyo.component.CircleImageView
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="17dp"
+                    app:border_width="1dp"
+                    app:border_color="@color/black"
+                    android:id="@+id/circleImage"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/p1"
+                    >
+                </com.steven.babyiyo.component.CircleImageView>-->
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="喜月养生月子会所"
+                    android:id="@+id/name"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_centerVertical="true"
+                     />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1234"
+                    android:gravity="center_vertical"
+                    android:drawablePadding="6dp"
+                    android:layout_marginRight="10dp"
+                    android:drawableLeft="@drawable/xinpress"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView7" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/share"
+                    android:layout_marginRight="10dp"
+                    android:layout_toStartOf="@+id/textView7" />
+
+            </RelativeLayout>
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="200dp">
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/hotelthree_ivone"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/hotelthree_ivtwo"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:id="@+id/hotelthree_ivthree"
+                        android:layout_margin="5dp"
+                        android:layout_width="220dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/homeback"
+                        android:layout_height="match_parent" />
+
+                </LinearLayout>
+            </HorizontalScrollView>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="杭州-滨江"
+                    android:textSize="12sp"
+                    android:layout_marginRight="17dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:id="@+id/textView4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5个套餐"
+                    android:id="@+id/size"
+                    android:layout_marginRight="15dp"
+                    android:textSize="12sp"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:layout_centerVertical="true"
+                    android:layout_toLeftOf="@+id/textView4" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:background="@color/bg_Gray"></View>
+        </LinearLayout>
+        <include
+            layout="@layout/content_scrollingend"/>
+
+
+    </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+
+
+</android.support.v4.widget.NestedScrollView>

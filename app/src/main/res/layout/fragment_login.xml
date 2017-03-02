@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/rela_name"
+        android:background="@drawable/bg_border_color_black"
+        >
+        <ImageView
+
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/iconmbile"
+            android:id="@+id/loginusericon" />
+
+        <com.steven.babyiyo.component.EditTextWithDel
+            android:id="@+id/userph"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/white"
+            android:hint="请输入您的手机号"
+            android:textSize="13sp"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/loginusericon" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rela_pass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_border_color_black"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/codeicon"
+            android:id="@+id/codeicon" />
+
+        <com.steven.babyiyo.component.EditTextWithDel
+            android:id="@+id/userpass"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="请输入您的密码"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textSize="13sp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/codeicon" />
+    </RelativeLayout>
+
+    <com.steven.babyiyo.component.PaperButton
+        android:id="@+id/bt_login"
+        widget:paper_corner_radius="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        widget:paper_text="登录"
+        widget:paper_text_size="15sp"
+        widget:paper_color="@color/maincolor"
+        widget:paper_text_color="@color/white"
+        >
+    </com.steven.babyiyo.component.PaperButton>
+        <TextView
+            android:id="@+id/tv_forgetcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center_horizontal"
+            android:textSize="13sp"
+            android:textColor="@color/white"
+            android:text="忘记登录信息？登陆需要帮助" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_gravity="center_vertical"
+                android:layout_width="100dp"
+                android:background="@color/white"
+                android:layout_marginRight="20dp"
+                android:layout_height="1px"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:text="或" />
+
+            <View
+                android:layout_gravity="center_vertical"
+                android:layout_width="100dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/white"
+                android:layout_height="1px"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:weightSum="3"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:orientation="horizontal"
+            android:layout_height="70dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:src="@drawable/weibo"/>
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/qq"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/weixin"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/login_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</FrameLayout>

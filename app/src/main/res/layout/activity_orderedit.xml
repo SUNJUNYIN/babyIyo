@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="#eeedf0" >
+
+    <include
+        layout="@layout/include_header"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#eeedf0">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/image_main"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:background="@drawable/bg_border_color_white"
+            />
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/title_name"
+                android:text="dsadasdsada"
+                android:lineSpacingExtra="5dp"
+                android:layout_width="match_parent"
+                android:layout_weight="2"
+                android:layout_marginTop="5dp"
+                android:textSize="14sp"
+                android:lines="2"
+                android:textColor="@color/black"
+                android:layout_height="0dp" />
+
+            <TextView
+                android:id="@+id/priceandnum"
+                android:text="dsadsadas"
+                android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:layout_height="60dp">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/viewcolor"
+                    android:layout_alignParentTop="true"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    android:text="就餐时间"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="16dp"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/main_textcolor"
+                    android:text="暂不选择"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/viewcolor"
+                    android:layout_alignParentBottom="true"/>
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+
+                android:background="@color/white"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="16dp"
+                    android:textColor="@color/black"
+                    android:text="购买份数"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="@color/viewcolor"
+                    android:layout_alignParentBottom="true"/>
+
+                <LinearLayout
+                    android:id="@+id/addsublin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="16dp"
+                   android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_weight="1"
+                    android:visibility="visible" >
+
+                    <LinearLayout
+                        android:id="@+id/bt_sub"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_border_color_whitenoradio"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/jianhao_btn"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/sub"
+                            android:gravity="center" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/goodsnum"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_border_color_whitenoradio"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/bg_Black" />
+
+                    <LinearLayout
+                        android:id="@+id/bt_add"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_border_color_whitenoradio"
+                        android:gravity="center" >
+
+                        <ImageView
+                            android:id="@+id/jiahao_btn"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:background="@drawable/add" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+    </LinearLayout>
+    </ScrollView>
+        <LinearLayout
+            android:id="@+id/pay_edit"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:background="@drawable/main_color_selector"
+            android:gravity="center"
+            android:layout_height="50dp">
+            <TextView
+                android:id="@+id/edit_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                />
+            <TextView
+               android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:text="确认"/>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+

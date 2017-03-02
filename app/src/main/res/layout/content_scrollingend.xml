@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <!-- <TextView <TextView
+         android:layout_width="match_parent"
+         android:layout_height="20dp"
+         android:textSize="14sp"
+         android:textColor="@color/black"
+         android:layout_marginTop="20dp"
+         android:layout_marginLeft="17dp"
+         android:text="金牌月嫂"/>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="110dp">
+         <com.steven.babyiyo.component.CircleImageView
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="17dp"
+             app:border_width="1dp"
+             app:border_color="@color/bg_Gray"
+             android:id="@+id/circleImage1"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:src="@drawable/p1"
+             >
+         </com.steven.babyiyo.component.CircleImageView>
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_centerVertical="true"
+       android:layout_toEndOf="@+id/circleImage1"
+       android:layout_marginLeft="15dp"
+       android:orientation="vertical">
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:text="章琮健"
+             android:id="@+id/name1"
+             android:textColor="@color/black"
+             android:textSize="12sp"
+
+            />
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal">
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:text="1978"
+               android:id="@+id/name1"
+               android:textColor="@color/bg_Gray"
+               android:textSize="12sp"
+
+               />
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:text="宁波"
+               android:id="@+id/area"
+               android:layout_marginLeft="10dp"
+               android:textColor="@color/bg_Gray"
+               android:textSize="12sp"
+
+               />
+           <TextView
+               android:layout_marginTop="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textAppearance="?android:attr/textAppearanceSmall"
+               android:text="5年护理经验"
+               android:id="@+id/workyears"
+               android:layout_marginLeft="10dp"
+               android:textColor="@color/bg_Gray"
+               android:textSize="12sp"
+
+               />
+
+       </LinearLayout>
+   </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="1234"
+             android:gravity="center_vertical"
+             android:drawablePadding="6dp"
+             android:layout_marginRight="10dp"
+             android:drawableLeft="@drawable/xinpress"
+             android:layout_centerVertical="true"
+             android:layout_toStartOf="@+id/imageView"
+             android:id="@+id/textView5" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/imageView"
+             android:layout_centerVertical="true"
+             android:src="@drawable/share"
+             android:layout_alignParentEnd="true"
+             android:layout_marginRight="10dp"
+             />
+
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1px"
+             android:layout_alignParentBottom="true"
+             android:layout_marginLeft="80dp"
+             android:layout_marginRight="80dp"
+             android:background="@color/bg_Gray"></View>
+     </RelativeLayout>
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_marginTop="10dp"
+         android:layout_height="110dp">
+         <com.steven.babyiyo.component.CircleImageView
+             android:layout_alignParentLeft="true"
+             android:layout_centerVertical="true"
+             android:layout_marginLeft="17dp"
+             app:border_width="1dp"
+             app:border_color="@color/bg_Gray"
+             android:id="@+id/circleImage2"
+             android:layout_width="70dp"
+             android:layout_height="70dp"
+             android:src="@drawable/p1"
+             >
+         </com.steven.babyiyo.component.CircleImageView>
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerVertical="true"
+             android:layout_toEndOf="@+id/circleImage2"
+             android:layout_marginLeft="15dp"
+             android:orientation="vertical">
+
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:text="章琮健"
+                 android:id="@+id/name2"
+                 android:textColor="@color/black"
+                 android:textSize="12sp"
+
+                 />
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <TextView
+                     android:layout_marginTop="10dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceSmall"
+                     android:text="1978"
+                     android:id="@+id/name2"
+                     android:textColor="@color/bg_Gray"
+                     android:textSize="12sp"
+
+                     />
+                 <TextView
+                     android:layout_marginTop="10dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceSmall"
+                     android:text="宁波"
+                     android:id="@+id/area2"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="@color/bg_Gray"
+                     android:textSize="12sp"
+
+                     />
+                 <TextView
+                     android:layout_marginTop="10dp"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textAppearance="?android:attr/textAppearanceSmall"
+                     android:text="5年护理经验"
+                     android:id="@+id/workyears2"
+                     android:layout_marginLeft="10dp"
+                     android:textColor="@color/bg_Gray"
+                     android:textSize="12sp"
+
+                     />
+
+             </LinearLayout>
+         </LinearLayout>
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="1234"
+             android:gravity="center_vertical"
+             android:drawablePadding="6dp"
+             android:layout_marginRight="10dp"
+             android:drawableLeft="@drawable/xinpress"
+             android:layout_centerVertical="true"
+             android:layout_toStartOf="@+id/imageView2"
+             android:id="@+id/textView2" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/imageView2"
+             android:layout_centerVertical="true"
+             android:src="@drawable/share"
+             android:layout_alignParentEnd="true"
+             android:layout_marginRight="10dp"
+             />
+
+
+         <View
+             android:layout_width="match_parent"
+             android:layout_height="1px"
+             android:layout_alignParentBottom="true"
+             android:layout_marginLeft="80dp"
+             android:layout_marginRight="80dp"
+             android:background="@color/bg_Gray"></View>
+     </RelativeLayout>
+     <RelativeLayout
+     android:layout_width="match_parent"
+         android:layout_marginTop="10dp"
+     android:layout_height="110dp">
+     <com.steven.babyiyo.component.CircleImageView
+         android:layout_alignParentLeft="true"
+         android:layout_centerVertical="true"
+         android:layout_marginLeft="17dp"
+         app:border_width="1dp"
+         app:border_color="@color/bg_Gray"
+         android:id="@+id/circleImage3"
+         android:layout_width="70dp"
+         android:layout_height="70dp"
+         android:src="@drawable/p1"
+         >
+     </com.steven.babyiyo.component.CircleImageView>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerVertical="true"
+         android:layout_toEndOf="@+id/circleImage3"
+         android:layout_marginLeft="15dp"
+         android:orientation="vertical">
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             android:text="章琮健"
+             android:id="@+id/name3"
+             android:textColor="@color/black"
+             android:textSize="12sp"
+
+             />
+         <LinearLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal">
+             <TextView
+                 android:layout_marginTop="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:text="1978"
+                 android:id="@+id/name4"
+                 android:textColor="@color/bg_Gray"
+                 android:textSize="12sp"
+
+                 />
+             <TextView
+                 android:layout_marginTop="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:text="宁波"
+                 android:id="@+id/area3"
+                 android:layout_marginLeft="10dp"
+                 android:textColor="@color/bg_Gray"
+                 android:textSize="12sp"
+
+                 />
+             <TextView
+                 android:layout_marginTop="10dp"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textAppearance="?android:attr/textAppearanceSmall"
+                 android:text="5年护理经验"
+                 android:id="@+id/workyears3"
+                 android:layout_marginLeft="10dp"
+                 android:textColor="@color/bg_Gray"
+                 android:textSize="12sp"
+
+                 />
+
+         </LinearLayout>
+     </LinearLayout>
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="1234"
+         android:gravity="center_vertical"
+         android:drawablePadding="6dp"
+         android:layout_marginRight="10dp"
+         android:drawableLeft="@drawable/xinpress"
+         android:layout_centerVertical="true"
+         android:layout_toStartOf="@+id/imageView3"
+         android:id="@+id/textView3" />
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imageView3"
+         android:layout_centerVertical="true"
+         android:src="@drawable/share"
+         android:layout_alignParentEnd="true"
+         android:layout_marginRight="10dp"
+         />
+
+
+     <View
+         android:layout_width="match_parent"
+         android:layout_height="1px"
+         android:layout_alignParentBottom="true"
+         android:layout_marginLeft="20dp"
+         android:layout_marginRight="20dp"
+         android:background="@color/bg_Gray"></View>-->
+<!--</RelativeLayout>
+      android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="17dp"
+        android:textColor="@color/black"
+        android:text="IYO速读"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="2"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+               android:layout_marginLeft="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/homeback"/>
+            <ImageView
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/homeback"/>
+
+        </LinearLayout>
+        <ImageView
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/homeback"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@color/bg_Gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        layout="@layout/include_header"
+        />
+    <RelativeLayout
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_border_color_white"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/person"
+            android:id="@+id/personicon" />
+
+        <com.steven.babyiyo.component.EditTextWithDel
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="请输入您的用户名"
+            android:inputType="text"
+            android:textColorHint="@color/bg_Gray"
+            android:textSize="15sp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/personicon" />
+    </RelativeLayout>
+
+    <com.steven.babyiyo.component.PaperButton
+        widget:paper_corner_radius="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        widget:paper_text="开启IYO"
+        android:id="@+id/openbt"
+        widget:paper_color="@color/maincolor"
+        widget:paper_text_color="@color/white"
+        >
+    </com.steven.babyiyo.component.PaperButton>
+
+</LinearLayout>

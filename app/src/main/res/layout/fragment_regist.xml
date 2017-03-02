@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:widget="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fg_regist"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/rela_rephone"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_border_color_black"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/iconmbile"
+            android:id="@+id/usericon" />
+
+        <com.steven.babyiyo.component.EditTextWithDel
+            android:id="@+id/userphone"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:textColorHint="@color/white"
+            android:hint="请输入您的手机号"
+            android:textSize="13sp"
+            android:background="@null"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/usericon" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/rela_recode"
+            android:layout_gravity="center_horizontal"
+       android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/bg_border_color_black"
+            >
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/keyicon"
+                android:id="@+id/keyicon" />
+
+            <com.steven.babyiyo.component.EditTextWithDel
+                android:id="@+id/smscode"
+                android:layout_width="match_parent"
+                android:textColor="@color/white"
+                android:inputType="number"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:textColorHint="@color/white"
+                android:hint="验证码"
+                android:textSize="13sp"
+                android:background="@null"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toEndOf="@+id/keyicon" />
+        </RelativeLayout>
+        <com.steven.babyiyo.component.PaperButton
+            android:id="@+id/send_smscode"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            widget:paper_corner_radius="19dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            widget:paper_text_size="13sp"
+            widget:paper_text="发送验证码"
+            widget:paper_color="@color/codeGary"
+            widget:paper_text_color="@color/white"
+            />
+
+
+
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/rela_repass"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_border_color_black"
+        >
+        <ImageView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/codeicon"
+            android:id="@+id/codeicon" />
+
+        <com.steven.babyiyo.component.EditTextWithDel
+            android:id="@+id/userpassword"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:hint="请输入您的密码"
+            android:inputType="textPassword"
+            android:textColorHint="@color/white"
+            android:textSize="13sp"
+            android:background="@null"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/codeicon" />
+    </RelativeLayout>
+
+    <com.steven.babyiyo.component.PaperButton
+        android:id="@+id/next"
+        widget:paper_corner_radius="19dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        widget:paper_text="下一步"
+        widget:paper_color="@color/maincolor"
+        widget:paper_text_color="@color/white"
+        />
+
+
+
+</LinearLayout>
