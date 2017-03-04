@@ -93,8 +93,8 @@ public class FragmentCar extends BaseFragment{
 	private void setupViewPager(ViewPager viewPager) {
 		TabViewPagerAdapter adapter = new TabViewPagerAdapter(getActivity().getSupportFragmentManager());
 		adapter.addFrag(new FragmentImage(), "美食");
-		adapter.addFrag(new FragmentTwore(), "玩乐");//fragmentfour
-		adapter.addFrag(new FragmentThreere(), "生活学院");
+		adapter.addFrag(new FragmentImage(), "玩乐");//fragmentfour
+		adapter.addFrag(new FragmentImage(), "生活学院");
 		viewPager.setAdapter(adapter);
 	}
 
