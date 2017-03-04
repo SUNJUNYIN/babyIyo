@@ -40,7 +40,7 @@ import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.listener.FindListener;
 
 @ContentView(R.layout.fragment_image)
-public class FragmentSort extends BaseFragment {
+public class FragmentLife extends BaseFragment {
     @ViewInject(R.id.second_viewpagerone)
     ViewPager viewPagerTop;
     @ViewInject(R.id.linear_point_mian)
@@ -58,7 +58,6 @@ public class FragmentSort extends BaseFragment {
     private boolean isLoop = true;
     private int lastPosition;
     private ArrayList<ImageView> viewpagerList;
-    private int[] imageList = {R.drawable.guide1, R.drawable.guide2, R.drawable.guide3,};
     private MyHeaderPageAdapter headAdapter;
     private   PageoneRecomAdapter adapter;
     private Handler handler = new Handler() {
