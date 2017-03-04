@@ -1,28 +1,14 @@
 package com.steven.babyiyo;
 
 
-import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.WindowManager;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
-import android.widget.ImageView;
 
 import com.steven.babyiyo.adapter.TabViewPagerAdapter;
-import com.steven.babyiyo.fragment.FragmentFour;
-import com.steven.babyiyo.fragment.FragmentImage;
 import com.steven.babyiyo.fragment.FragmentLogin;
 import com.steven.babyiyo.fragment.FragmentRegist;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class LoginActivity extends BaseActivity {
 	@Override

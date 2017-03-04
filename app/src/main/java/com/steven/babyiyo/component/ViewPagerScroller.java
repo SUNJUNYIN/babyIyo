@@ -8,7 +8,7 @@ import android.widget.Scroller;
 /**
  * ViewPager 滚动速度设置
  *
- * @author Tercel
+ * @author picasoac
  *
  */
 public class ViewPagerScroller extends Scroller {

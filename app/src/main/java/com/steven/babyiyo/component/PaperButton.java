@@ -22,8 +22,6 @@ import android.view.View;
 import com.steven.babyiyo.R;
 
 /**
- * Created by IntelliJ IDEA.
- * User: keith.
  * Date: 14-10-9.
  * Time: 17:04.
  */

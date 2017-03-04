@@ -21,10 +21,8 @@ import android.widget.RelativeLayout;
 import com.steven.babyiyo.adapter.MyPagerAdapter;
 import com.steven.babyiyo.component.NoScrollViewPager;
 import com.steven.babyiyo.fragment.FragmentCar;
-import com.steven.babyiyo.fragment.FragmentEasyread;
 import com.steven.babyiyo.fragment.FragmentHomepage;
 import com.steven.babyiyo.fragment.FragmentMy;
-import com.steven.babyiyo.fragment.FragmentSort;
 import com.steven.babyiyo.navigationbar.NavigationTabBar;
 
 import java.util.ArrayList;
@@ -34,7 +32,6 @@ import java.util.ArrayList;
 public class HomeActivity extends BaseActivity {
 	private FragmentHomepage homePage;
 	private FragmentMy fragmentMy;
-	private FragmentSort fragmentSort;
 	private FragmentCar fragmentCar;
 	private FragmentTransaction transaction;
 	private FragmentTransaction beginTransaction;
@@ -47,7 +44,7 @@ public class HomeActivity extends BaseActivity {
 	private  Context context;
 	private NavigationView navigationView;
 	private DrawerLayout drawer;
-	private FragmentEasyread fragmentEasyread;
+
 
 
 	@Override

@@ -78,8 +78,6 @@ public class FragmentHomepage extends BaseFragment  {
 	private int flag = 0;
 	private Float firstTouch;
 	private Float secondTouch;
-
-
 	private Handler handler =new Handler(){};
 
 	@Override
@@ -156,28 +154,28 @@ public class FragmentHomepage extends BaseFragment  {
 			}
 		});
  //滑动自动拉上去
-		home_scrollview.setOnTouchListener(new View.OnTouchListener() {
-			@Override
-			public boolean onTouch(View v, MotionEvent event) {
-				switch (event.getAction()) {
-					case MotionEvent.ACTION_DOWN:
-						firstTouch = event.getY();
-						Log.i("====第一次记录ACTION_DOWN",firstTouch+"");
-						break;
-					case MotionEvent.ACTION_UP:
-						secondTouch = event.getY();
-						if ((float)(secondTouch - firstTouch) > 0 && event.getY() < (float) 150) {
-							Log.i("====第一次记录ACTION_UP",secondTouch+"");
-
-							appBarLayout.setExpanded(false);
-							flag = 0;
-						}
-						break;
-				}
-
-				return false;
-			}
-		});
+//		home_scrollview.setOnTouchListener(new View.OnTouchListener() {
+//			@Override
+//			public boolean onTouch(View v, MotionEvent event) {
+//				switch (event.getAction()) {
+//					case MotionEvent.ACTION_DOWN:
+//						firstTouch = event.getY();
+//						Log.i("====第一次记录ACTION_DOWN",firstTouch+"");
+//						break;
+//					case MotionEvent.ACTION_UP:
+//						secondTouch = event.getY();
+//						if ((float)(secondTouch - firstTouch) > 0 && event.getY() < (float) 150) {
+//							Log.i("====第一次记录ACTION_UP",secondTouch+"");
+//
+//							appBarLayout.setExpanded(false);
+//							flag = 0;
+//						}
+//						break;
+//				}
+//
+//				return false;
+//			}
+//		});
 
 
 	}

@@ -1,41 +1,23 @@
 package com.steven.babyiyo.fragment;
 
 import android.os.Bundle;
-import android.os.Handler;
-import android.os.Message;
-import android.os.SystemClock;
 import android.support.annotation.Nullable;
 import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.ViewGroup.LayoutParams;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.steven.babyiyo.MyApp;
 import com.steven.babyiyo.R;
-import com.steven.babyiyo.adapter.MyHeaderPageAdapter;
 import com.steven.babyiyo.adapter.TabViewPagerAdapter;
-import com.steven.babyiyo.component.ViewPagerScroller;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.ViewInject;
 import org.xutils.x;
 
-import java.lang.reflect.Field;
-import java.nio.MappedByteBuffer;
-import java.util.ArrayList;
-import java.util.List;
-
-@ContentView(R.layout.fragment_zixun)
+@ContentView(R.layout.fragment_car)
 public class FragmentCar extends BaseFragment{
 	@ViewInject(R.id.second_viewpagers)
 	ViewPager viewPager;
@@ -92,9 +74,9 @@ public class FragmentCar extends BaseFragment{
 
 	private void setupViewPager(ViewPager viewPager) {
 		TabViewPagerAdapter adapter = new TabViewPagerAdapter(getActivity().getSupportFragmentManager());
-		adapter.addFrag(new FragmentImage(), "美食");
-		adapter.addFrag(new FragmentImage(), "玩乐");//fragmentfour
-		adapter.addFrag(new FragmentImage(), "生活学院");
+		adapter.addFrag(new FragmentSort(), "美食");
+		adapter.addFrag(new FragmentSort(), "玩乐");//fragmentfour
+		adapter.addFrag(new FragmentSort(), "生活学院");
 		viewPager.setAdapter(adapter);
 	}
 

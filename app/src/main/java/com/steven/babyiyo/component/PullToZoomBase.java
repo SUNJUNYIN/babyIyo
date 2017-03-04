@@ -17,7 +17,7 @@ import com.steven.babyiyo.R;
 
 /**
  * ���������������
- * @author zhangshuo
+ * @author sjy
  * @param <T>
  */
 public abstract class PullToZoomBase<T extends View> extends LinearLayout{

@@ -12,9 +12,7 @@ import android.widget.EditText;
 
 import com.steven.babyiyo.R;
 
-/**
- * @author sunday 2013-12-04
- */
+
 public class EditTextWithDel extends EditText {
 	private final static String TAG = "EditTextWithDel";
 	private Drawable imgInable;

@@ -93,9 +93,6 @@ public class ActivityGoods extends BaseActivity implements View.OnClickListener{
 		initViewpager();
 		//setChangeListener();
 
-		// ATTENTION: This was auto-generated to implement the App Indexing API.
-		// See https://g.co/AppIndexing/AndroidStudio for more information.
-		client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
 	}
 
 	private void initViewpager() {
@@ -215,8 +212,7 @@ public class ActivityGoods extends BaseActivity implements View.OnClickListener{
 
 				positions = position % viewpagerList.size();
 
-				// �ı�ָʾ���״̬
-				// �ѵ�ǰ��enbale Ϊtrue
+
 				pointGroup.getChildAt(positions).setEnabled(true);
 				pointGroup.getChildAt(lastPosition).setEnabled(false);
 				lastPosition = positions;
@@ -346,9 +342,7 @@ public class ActivityGoods extends BaseActivity implements View.OnClickListener{
 	public void onStart() {
 		super.onStart();
 
-		// ATTENTION: This was auto-generated to implement the App Indexing API.
-		// See https://g.co/AppIndexing/AndroidStudio for more information.
-		client.connect();
+
 		Action viewAction = Action.newAction(
 				Action.TYPE_VIEW, // TODO: choose an action type.
 				"ActivityGoods Page", // TODO: Define a title for the content shown.

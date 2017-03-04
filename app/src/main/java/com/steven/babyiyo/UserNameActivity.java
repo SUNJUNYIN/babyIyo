@@ -48,7 +48,7 @@ public class UserNameActivity extends Activity {
 	EditTextWithDel username;
 	String phone;
 
-	private GoogleApiClient client;
+
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
